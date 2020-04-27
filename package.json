@@ -1,0 +1,35 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "book library",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "lint": "eslint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovely1it/Library.git"
+  },
+  "author": "lovely-kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovely1it/Library/issues"
+  },
+  "homepage": "https://github.com/lovely1it/Library#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "chalk": "^4.0.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
+
